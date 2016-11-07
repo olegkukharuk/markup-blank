@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Demo build</title>
+        <link href="assets/stylesheet/index.css" rel="stylesheet">
+</head>
+<body>
+
+        <!-- @if NODE_ENV='production' -->
+            Preprocess PRODUCTION
+        <!-- @endif -->
+        <!-- @if NODE_ENV='dev' -->
+            Preprocess DEV...
+        <!-- @endif -->
+
+        [snp tpl="partials/thumb.html" title="Test variable value"]
+
+</body>
+</html>

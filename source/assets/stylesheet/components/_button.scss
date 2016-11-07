@@ -1,0 +1,20 @@
+/*
+    Buttons Component (.btn)
+    1. Variables
+    2. Basic styles in a functions/mixins
+    3. Style combinations
+    3.1. With dependencies by parent
+    3.2. With class--modifier
+    3.3.
+*/
+
+
+
+h1 > .btn.btn-red {}
+
+// $btn-palette: {};
+// @each $btn-color in $btn-colors {
+//     .#{$animal}-icon {
+//
+//     }
+// }
