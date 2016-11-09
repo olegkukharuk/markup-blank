@@ -1,8 +1,8 @@
-// Helpers
-@import "helpers/_default.scss", "helpers/_mixins.scss", "helpers/_variables.scss";
-
 // Vendors
 @import "vendors/_bootstrap.scss", "vendors/_juice.scss";
+
+// Helpers
+@import "helpers/_variables.scss", "helpers/_mixins.scss", "helpers/_default.scss";
 
 // Components
 @import "components/_button.scss", "components/_carousel.scss", "components/_grid.scss";
@@ -14,8 +14,4 @@
 @import "pages/_blog.scss", "pages/_home.scss", "pages/_post.scss";
 
 // Theme
-@import "theme/le_lustre.scss";
-
-body {
-    background-color: purple;
-}
+@import "theme/_blank.scss";
