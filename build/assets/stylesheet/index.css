@@ -6218,5 +6218,16 @@ button.close {
     3.2. With class--modifier
     3.3.
 */
-body {
-  background-color: purple; }
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px; }
+
+.features__Item {
+  padding-bottom: 10px;
+  padding-top: 25px;
+  vertical-align: top; }
+
+.features__Item img {
+  height: 64px;
+  width: 64px; }

@@ -7,6 +7,29 @@
 </head>
 <body>
 
+<div class="container">
+    [snp tpl="layouts/_header.html" title="Some title"]
+
+    <div class="page-header">
+      <h1>Benefits</h1>
+    </div>
+    <div class="row features">
+        [snp tpl="partials/thumb.html" title="Easy start" image="http://swiip.github.io/yeoman-gulp/img/gulp.png" col="sm-3" pos="left"]
+        [snp tpl="partials/thumb.html" title="Flexible html" image="http://www.silver.od.ua/wp-content/uploads/2015/03/sass2501.jpg" col="sm-3" pos="left"]
+        [snp tpl="partials/thumb.html" title="Develoment mode" image="http://www.truedesigners.ru/sites/default/files/articles/bootstrap.png" col="sm-3" pos="left"]
+        [snp tpl="partials/thumb.html" title="FTP Deploy" image="http://www.truedesigners.ru/sites/default/files/articles/bootstrap.png" col="sm-3" pos="left"]
+    </div>
+
+    <div class="page-header">
+      <h1>Technologies</h1>
+    </div>
+    <div class="row features">
+        [snp tpl="partials/thumb.html" title="Gulp" image="http://swiip.github.io/yeoman-gulp/img/gulp.png" col="sm-3" pos="left"]
+        [snp tpl="partials/thumb.html" title="Sass" image="http://www.silver.od.ua/wp-content/uploads/2015/03/sass2501.jpg" col="sm-3" pos="left"]
+        [snp tpl="partials/thumb.html" title="Bootstrap" image="http://www.truedesigners.ru/sites/default/files/articles/bootstrap.png" col="sm-3" pos="left"]
+        [snp tpl="partials/thumb.html" title="Bootstrap" image="http://www.truedesigners.ru/sites/default/files/articles/bootstrap.png" col="sm-3" pos="left"]
+    </div>
+
         <!-- @if NODE_ENV='production' -->
             Preprocess PRODUCTION
         <!-- @endif -->
@@ -14,7 +37,7 @@
             Preprocess DEV...
         <!-- @endif -->
 
-        [snp tpl="partials/thumb.html" title="Test variable value"]
+</div>
 
 </body>
 </html>
